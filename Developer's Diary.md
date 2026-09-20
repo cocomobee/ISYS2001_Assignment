@@ -46,3 +46,6 @@ The second part of the response was this
 ![Second response p3](diary_images/response2_3.PNG)
 
 This is moreso for the next parts but I did ask for extenions and other useful functions I could add. Personally I like the ideas of next_payment, percentage of subscription spending and cancellation/savings calculator, as they all provide good meaningful value without creeping on the point of other parts. Most expensive subscription seems less useful due to the percentage of subscription and would usually be something obvious and unavoidable, and for category I don't see it providing much value.
+
+### 20/09/26
+Step 3 worked problems was done this time. I chose 5 different ideas and went through the logic of them with calculations, when I begin writing the code this logic will be uuseful. And once I begin testing I will refer back to these worked examples to make sure the application lines up with my design. AI was not needed in creating this section however the examples will be fed to the AI so it can understand the logic design that is wanted.
