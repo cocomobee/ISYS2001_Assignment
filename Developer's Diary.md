@@ -1,4 +1,4 @@
-Week 7
+## Week 7
 ---
 ### 11/09/26
 The first day of this assignment was simply to setup the repo and make inital commits of all the files that will be used. This is so that in future days/weeks I do not have the hurdle of creating everything, giving me mentally an easy way to go in and work on the actual project.
@@ -7,7 +7,7 @@ The first day of this assignment was simply to setup the repo and make inital co
 Today I did the first step of the six step process, understand the problem. I chose the type of application I want to create aligned with a real world finance problem, gave an explanation of it, decided on some ground ideas, chose the target audience, and put forward my main goal in creating this.
 
 
-Week 8
+## Week 8
 ---
 ### 16/09/26
 This time was doing step 2 and figuring out the inputs and outputs for my application, these are kept fairly general and are not concrete, and extra inputs and outputs may come once I start coding and think of new functions to add.
@@ -45,7 +45,14 @@ With this part of the response for the inputs and outputs I kept the new inputs 
 The second part of the response was this
 ![Second response p3](diary_images/response2_3.PNG)
 
-This is moreso for the next parts but I did ask for extenions and other useful functions I could add. Personally I like the ideas of next_payment, percentage of subscription spending and cancellation/savings calculator, as they all provide good meaningful value without creeping on the point of other parts. Most expensive subscription seems less useful due to the percentage of subscription and would usually be something obvious and unavoidable, and for category I don't see it providing much value.
+This is moreso for the next parts but I did ask for extenions and other useful functions I could add. Personally I like the ideas of next_payment, percentage of subscription spending and cancellation/savings calculator, as they all provide good meaningful value without creeping on the point of other parts. Most expensive subscription seems less useful due to the percentage of subscription and would usually be something obvious and unavoidable. And for category I have not come to a decision on it yet.
 
 ### 20/09/26
 Step 3 worked problems was done this time. I chose 5 different ideas and went through the logic of them with calculations, when I begin writing the code this logic will be uuseful. And once I begin testing I will refer back to these worked examples to make sure the application lines up with my design. AI was not needed in creating this section however the examples will be fed to the AI so it can understand the logic design that is wanted.
+
+## Week 9
+---
+### 23/09/26
+Upon completing the week 9 workshop for building an interface step by step I got asked to jot down a few lines.
+1. Although I am not up to the code section yet the equivalent to Transaction would be something like Subscription and FinanceTracker would be SubscriptionTracker.
+2. SubscriptionTracker/FinanceTracker does not seem useful as it is pretty much just a class acting as a list. Subsciption/Transaction however is useful since it will be the main object of my project.
