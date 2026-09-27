@@ -56,3 +56,22 @@ Step 3 worked problems was done this time. I chose 5 different ideas and went th
 Upon completing the week 9 workshop for building an interface step by step I got asked to jot down a few lines.
 1. Although I am not up to the code section yet the equivalent to Transaction would be something like Subscription and FinanceTracker would be SubscriptionTracker.
 2. SubscriptionTracker/FinanceTracker does not seem useful as it is pretty much just a class acting as a list. Subsciption/Transaction however is useful since it will be the main object of my project.
+
+### 27/09/26
+Step 4 pseudocode was worked on for today, rather than getting into the complexities with pandas on indivual lines, the chatbot and gradio interface I focused on the actual logic of functions that perform tasks as they are the ones in most need of design. I personally ran into an issue trying to format the pseudocode but I managed to remember code fences can still be used in text sections of .ipynb files allowing me to solve that.
+
+Now for AI usage, I used it to help me plan out pseudocode for my functions giving a it a long prompt with details on what will be used for this project, my idea for the pseudocode and design of the project overall. Here is the prompt:
+```
+Before we get started I want to let you know what we are working with, it is mainly important for the actual python code since pseudocode is kept general, but it might still be useful to put it now. What I have learnt in this class so far for preparation for this project is basic if statements, loops, good formatted outputting, lists, functions, while loops, for loops, dictionaries, Pandas, APIs (mainly for the chatbot), reading csv file, and Gradio for a simple front end inside the colab/notebook file. These will be the main things we are sticking to for the code when we get to that.
+
+Now lets get to work on the pseudocode, I think we should do pseudocode for each main function that performs a task. A normal main and menu will be replaced by Gradio and that seems out of scope for pseudocode. I believe the functions we should build in pseudocode are calculate_cost(), combined_cost(), next_payment(), load_csv(), cancellation/savings function, percentage of each subscription function that will probably be shown as a graph. We can leave the chatbot for later as I belive that is even unsuitable to make pseudocode for. Most functions will call calculate_cost as the fundemental reusable tool and alot of logic will revolve around it, use the worked examples as help for the logic where no matter the frequency of a subscription it will always first be converted to the yearly_cost.
+
+The main idea is that there will be a gradio interface with different tabs, some for specific tasks like the front one will allow adding subscriptions, loading in a csv file, etc. Then another tab for example like analysis which may show a table/graph and some other stuff with costs. Basically everything will revolve around being part of tabs inside gradio where they are called from. We can always go back and make new pseudocode when needed.
+```
+
+This prompt will also be important context for later code. A couple screenshots from the output will be shown to understand the main idea as the entire response is quite long:
+![Third response p1](diary_images/response3_1.PNG)
+![Third response p2](diary_images/response3_2.PNG)
+
+
+With this prompt I kept load_csv and spending_percentages the same as there is not much change possible for these functions anyway. calculate_savings and combined_cost went through minor wording changes just to better show what will happen rather than a sentence, I believe this makes the pseudocode easier to read. calculate_cost and next_payment went through a bigger change replacing the large if else chain with a case statement, this is more suitable to the problem and way more readable, python has way of using this when I begin making the code as well.
