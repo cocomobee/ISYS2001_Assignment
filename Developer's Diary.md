@@ -70,6 +70,7 @@ The main idea is that there will be a gradio interface with different tabs, some
 ```
 
 This prompt will also be important context for later code. A couple screenshots from the output will be shown to understand the main idea as the entire response is quite long:
+
 ![Third response p1](diary_images/response3_1.PNG)
 ![Third response p2](diary_images/response3_2.PNG)
 
